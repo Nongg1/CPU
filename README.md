@@ -98,8 +98,8 @@ setfpscap(360)
 RunService:Set3dRenderingEnabled(true)
 end
 
-if _G.GPUSave then
-    if _G.LowFPS then
+if _G.settingsTable.whitscreen then
+    if _G.settingsTable.whitscreen then
         savegpu(10)
     else
         savegpu(60)
