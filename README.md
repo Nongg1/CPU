@@ -109,7 +109,7 @@ else
 end
 
 while wait() do
-    if _G.SmoothForEyes and _G.GPUSave then
+    if _G.SmoothForEyes and _G.settingsTable.whitscreen then
         BG.Visible = true
         ImageLabel.Rotation = ImageLabel.Rotation + 5
     else
